@@ -13,8 +13,10 @@
 /* Подключение вариативного шрифта Inter (с диапазоном весов) */
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter-VariableFont_slnt,wght.woff2") format("woff2 supports variations");
-  font-weight: 400 785; 
+  src: url("../fonts/Inter-VariableFont_slnt,wght.woff2")
+    format("woff2 supports variations");
+  font-weight: 400 to 785;
   font-style: normal;
   font-display: swap;
+  font-variation-settings: "slnt" 0, "wght" 400;
 }
