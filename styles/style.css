@@ -161,7 +161,7 @@
 }
 
 .filter_complex {
-  filter: grayscale(50%) sepia(30%) blur(30%) contrast(120%);
+  filter: grayscale(50%) sepia(30%) blur(3px) contrast(120%);
 }
 
 .filter_sepia {
