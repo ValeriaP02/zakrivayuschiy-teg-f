@@ -7,10 +7,10 @@
   --font-accent: "PressStart2P";
 
   --font-weight-normal: 400;
-  --font-weight-bold: 785;
+  --font-weight-bold: 715;
 
-  --label-stroke-color: rgba(255, 255, 255, 0.6);
-  --label-text-color: rgba(0, 0, 0, 0.8);
+  --label-stroke-color: #fff;
+  --label-text-color: #000;
   --accent-color: #000;
 
   --contour-color: #000;
@@ -20,6 +20,6 @@
   --text-color: #fff;
 
   --container-width: clamp(375px, 90vw, 700px);
-  --title-font-size: clamp(49px, 4vw, 65px);
+  --title-font-size: clamp(49px, 5vw, 65px);
   --subtitle-font-size: clamp(14px, 1.5vw, 23px);
 }
