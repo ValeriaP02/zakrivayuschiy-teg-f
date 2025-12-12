@@ -107,14 +107,14 @@
 .card__title {
   font-family: var(--font-main), sans-serif;
   font-size: 18px;
-  font-variation-settings: 715;
+  font-variation-settings: "wght" 715;
   padding: 4px 10px;
 }
 
 .card__description {
   font-family: var(--font-main), sans-serif;
   font-size: 18px;
-  font-variation-settings: 410;
+  font-variation-settings: "wght" 410;
   line-height: 1.2;
   margin: 25px 25px;
 }
@@ -126,14 +126,15 @@
 
 .card__label {
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 15px;
+  right: 15px;
   z-index: 1;
   background-color: transparent;
   font-family: var(--font-accent), fantasy;
   padding: 5px 10px;
   opacity: 0.5;
   mix-blend-mode: hard-light;
+  font-size: 14px;
 
   text-shadow: -1px -1px 0 var(--label-stroke-color),
     1px -1px 0 var(--label-stroke-color), -1px 1px 0 var(--label-stroke-color),
@@ -291,7 +292,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: heart-scale 0.3s ease-in 0.1s;
+  animation: scaleHeart 0.3s ease-in 0.1s;
 }
 
 .like-icon.is-liked .sparks {
@@ -303,6 +304,7 @@
   margin: 0 auto;
   margin-bottom: 100px;
   width: clamp(306px, 80%, 335px);
+  white-space: nowrap;
 }
 
 .button__text {
@@ -322,7 +324,6 @@
   width: 21px;
   margin-right: 8px;
   position: relative;
-  transition: color 0.3s ease;
   z-index: 2;
   mix-blend-mode: difference;
 }
@@ -376,6 +377,7 @@ dialog::backdrop {
 .ok-button {
   margin: 30px;
   padding: 11px 128px;
+  text-transform: uppercase;
 }
 
 .dialog-icon {

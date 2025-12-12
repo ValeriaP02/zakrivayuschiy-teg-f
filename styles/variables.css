@@ -21,5 +21,5 @@
 
   --container-width: clamp(375px, 90vw, 700px);
   --title-font-size: clamp(49px, 5vw, 65px);
-  --subtitle-font-size: clamp(14px, 1.5vw, 23px);
+  --subtitle-font-size: clamp(14px, 2vw, 23px);
 }
